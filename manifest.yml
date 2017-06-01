@@ -10,4 +10,5 @@ applications:
     SPRING_PROFILES_ACTIVE: cloud
   services:
   - my-mysql
+  - myredis
   stack: cflinuxfs2
