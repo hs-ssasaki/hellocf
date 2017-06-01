@@ -13,7 +13,7 @@ public class HellocfApplication {
 		SpringApplication.run(HellocfApplication.class, args);
 	}
 	
-	@GetMapping("/")
+	@GetMapping("/hello")
 	public String index() {
 		return "Hello (" + System.getenv("CF_INSTANCE_INDEX") + ")";
 	}
